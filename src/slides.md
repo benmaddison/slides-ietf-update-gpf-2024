@@ -28,8 +28,8 @@ As an IP transit network operator, I mostly care about:
 
 Maintenance of BGP itself is handled by the `idr` working group
 
-- Long list of current work items
-- Mostly noise!
+-   Long list of current work items
+-   Mostly noise!
     - BGP-LS nonsense
     - SRv6 nonsense
     - SD-WAN nonsense
@@ -50,11 +50,11 @@ status: **in WGLC** - go indicate your support
 
 # Routing security - `sidrops`/`savnet`
 
-- Various source address validation proposals in `savnet`
+-   Various source address validation proposals in `savnet`
     - all variations on "uRPF with better data"
     - meh!
 
-- Lots of RPKI related work in-flight
+-   Lots of RPKI related work in-flight
     - full I-D list available on the [`sidrops`] datatracker page
     - some highlights...
 
@@ -91,12 +91,12 @@ Updates the ROA object profile based on lessons learned since RFC 6482 was publi
 
 [`draft-ietf-sidrops-rpki-validation-update`]
 
-- The current [RFC 6487] validation algorithm for RPKI signed objects is fragile
+-   The current [RFC 6487] validation algorithm for RPKI signed objects is fragile
     - ... we've know this for a decade!
-- [RFC 8360] proposed an improved algorithm
+-   [RFC 8360] proposed an improved algorithm
     - ... but required coordinated implementation by *all* CAs and RPs
-- This draft proposes an alternative implementation strategy
-- Adopted as a WG document last week! 🥳🥳🥳
+-   This draft proposes an alternative implementation strategy
+-   Adopted as a WG document last week! 🥳🥳🥳
 
 [`draft-ietf-sidrops-rpki-validation-update`]: https://datatracker.ietf.org/doc/draft-ietf-sidrops-rpki-validation-update/
 [RFC 6487]: https://datatracker.ietf.org/doc/rfc6487/
@@ -121,10 +121,10 @@ Updates the ROA object profile based on lessons learned since RFC 6482 was publi
 
 [`draft-ietf-sidrops-avoid-rpki-state-in-bgp`]
 
-- Multiple vendor and community sources have suggested signalling have previously recommended signalling RPKI-derived validation state in BGP (e.g. using communities)
-- At best, this is pointless, at worst it is harmful
+-   Multiple vendor and community sources have suggested signalling have previously recommended signalling RPKI-derived validation state in BGP (e.g. using communities)
+-   At best, this is pointless, at worst it is harmful
     - Every change in the RPKI causes churn in the DFZ :-(
-- Don't do it!
+-   Don't do it!
 
 [`draft-ietf-sidrops-avoid-rpki-state-in-bgp`]: https://datatracker.ietf.org/doc/draft-ietf-sidrops-avoid-rpki-state-in-bgp/
 
@@ -145,10 +145,10 @@ Updates the ROA object profile based on lessons learned since RFC 6482 was publi
 
 # Internet Routing Operations - `grow`
 
-- Lots of iterative improvements to BMP in-flight
+-   Lots of iterative improvements to BMP in-flight
     - chat to me outside if that's your jam ;-)
-- NRTM version 4 is in flight still
-- Peering automation API proposal
+-   NRTM version 4 is in flight still
+-   Peering automation API proposal
 
 # NRTM version 4
 
